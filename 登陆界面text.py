@@ -38,7 +38,7 @@ class Application(Frame):
         if self.entry1.get()==self.CompareAccount(): 
             if self.entry2.get()==self.ComparePassword():
                 if self.check.get()=='1':
-                    messagebox.showinfo('四虎登录系统','登录成功')
+                    messagebox.showinfo('登录系统','登录成功')
                     self.close()
                     self.sihuVideo()
                 else:
@@ -108,10 +108,8 @@ class Application(Frame):
     def close(self):
         self.cursor.close()
         self.connect.close()
-    def sihuVideo(self):
-        # webbrowser.open('D:\下载\蜘蛛纸牌\Plants_Vs_Zombies_V1.0.0.1051_CN_V2\PlantsVsZombies.exe')
+    def sihuVideo(self)
         #webbrowser.open('https://www.ven789.com/pic/toupai')
-        webbrowser.open('https://www.baidu.com')
 
 if __name__=="__main__":
     root=Tk()
